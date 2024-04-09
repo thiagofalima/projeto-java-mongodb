@@ -76,7 +76,7 @@ public class Post implements Serializable{
 
 	public void setAuthor(AuthorDTO author) {
 		this.author = author;
-	}
+	}		
 
 	public List<CommentDTO> getComments() {
 		return comments;
